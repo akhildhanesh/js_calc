@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    margin-top: 20%;
+}
+
+#read_val {
+    padding: 10px;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.sub-btn {
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.sub-btn:hover {
+    cursor: pointer;
+}
+
+.heading {
+    margin-top: 30px;
+    text-align: center;
+}

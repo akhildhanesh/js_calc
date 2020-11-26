@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Octal to binary Calculator</h1>
+    </div>
+    <main class="main">
+        <div class="read">
+            <input type="number" id="read_val" onkeyup="oncall()">
+            <div class="top">
+                <button type="submit" class="sub-btn" onsubmit="oncall()">Submit</button>
+            </div>
+        </div>
+        <br>
+        <div id="disp"></div>
+        <div id="binary"></div>
+    
+    </main>
+    
+    <script src="cal.js"></script>
+</body>
+</html>
